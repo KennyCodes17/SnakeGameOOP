@@ -70,9 +70,11 @@ public:
     void appleCollision();
     void checkWallCollision();
     void checkSelfCollision();
+    void splashScreen();
     void GameOver();
 
 
 private:
+    Texture2D snakeScreen;
 
 };

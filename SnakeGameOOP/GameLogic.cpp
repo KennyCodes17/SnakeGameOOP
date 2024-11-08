@@ -41,7 +41,7 @@ bool checkElementsInDeque(Vector2 element, std::deque<Vector2> deque)
 Apple:: Apple(std::deque<Vector2> snakeBody)
 {
     //load apple image to game
-    Image appleImage = LoadImage("C:/Users/kenny/OneDrive/Documents/VS projects/SnakeGameOOP/Graphics/apple_snake_game.png");
+    Image appleImage = LoadImage("C:/Users/kenny/OneDrive/Documents/VS projects/SnakeGameOOP/SnakeGameOOP/Graphics/apple_snake_game.png");
     //load apple texture to game
     appleTexture = LoadTextureFromImage(appleImage);
     //unload image to free up memory
